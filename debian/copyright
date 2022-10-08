@@ -1,0 +1,48 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: hunspell-an
+Source: https://addons.mozilla.org/firefox/downloads/file/136466/corrector_ortografico_aragones-0.2-fx+tb+sm.xpi
+
+Files: *
+Copyright: 2011 Santiago Paricio <sparicio@gmail.com>
+           2011 Juan Pablo Martínez <jpmart@unizar.es>
+License: GPL-3.0+ or MPL-1.1 or LGPL-3+
+
+Files: debian/*
+Copyright: 2006-2011 Agustín Martín Domingo <agmartin@debian.org>
+           2011 Jordi Mallach Pérez <jordi@debian.org>
+License: GPL-3.0+
+
+License: GPL-3.0+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: LGPL-3+
+ This is free software: you can redistribute it and/or modify it
+ under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or (at your
+ option) any later version.
+ .
+ It is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ On Debian-based systems the full text of the LGPL, version 3, can be found at
+ /usr/share/common-licenses/LGPL-3.
+
+License: MPL-1.1
+ Alternatively, this file is available under the Mozilla Public License Version
+ 1.1. You may obtain a copy of the License at http://www.mozilla.org/MPL/

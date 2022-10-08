@@ -1,0 +1,56 @@
+hunspell-an (0.2-6) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since stretch:
+    + hunspell-an: Drop versioned constraint on dictionaries-common in Depends.
+
+  [ Agustin Martin Domingo ]
+  * Set https://cgit.freedesktop.org/libreoffice/dictionaries/ as
+    upstream. Thanks Dimitrij Mijoski (Closes: #991966).
+  * Bump debhelper-compat to 13.
+  * Bump Standards-Version to 4.5.1.
+  * Add "Rules-Requires-Root: no".
+
+ -- Agustin Martin Domingo <agmartin@debian.org>  Mon, 16 Aug 2021 18:54:27 +0200
+
+hunspell-an (0.2-5) unstable; urgency=low
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+
+ -- Agustin Martin Domingo <agmartin@debian.org>  Mon, 28 Dec 2020 16:43:19 +0100
+
+hunspell-an (0.2-4) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/copyright: Change Format URL to correct one
+
+  [ Agustin Martin Domingo ]
+  * d/control: Bump Standards-Version. No changes required.
+
+ -- Agustin Martin Domingo <agmartin@debian.org>  Thu, 15 Nov 2018 16:01:10 +0100
+
+hunspell-an (0.2-3) unstable; urgency=medium
+
+  * debian/control:
+    - Update Vcs-Browser and Vcs-Git for salsa migration.
+    - Bump Standards-Version. No changes required.
+  * Bump debhelper compat level to 11.
+
+ -- Agustin Martin Domingo <agmartin@debian.org>  Fri, 04 May 2018 16:20:47 +0200
+
+hunspell-an (0.2-2) unstable; urgency=medium
+
+  * Improve DEP-5 debian/copyright.
+  * debian/control:
+    - Bump Standards-Version. No changes required.
+    - Update Vcs-Git field to new syntax.
+
+ -- Agustin Martin Domingo <agmartin@debian.org>  Mon, 13 Jul 2015 16:38:50 +0200
+
+hunspell-an (0.2-1) unstable; urgency=low
+
+  * Initial release (closes: #652827).
+
+ -- Jordi Mallach <jordi@debian.org>  Tue, 20 Dec 2011 20:24:42 +0100

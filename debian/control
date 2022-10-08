@@ -1,0 +1,30 @@
+Source: hunspell-an
+Maintainer: Jordi Mallach <jordi@debian.org>
+Uploaders: Agustin Martin Domingo <agmartin@debian.org>
+Section: text
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+	       dictionaries-common-dev (>= 1.11.2)
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/debian/hunspell-an
+Vcs-Git: https://salsa.debian.org/debian/hunspell-an.git
+Homepage: https://cgit.freedesktop.org/libreoffice/dictionaries/
+Rules-Requires-Root: no
+
+Package: hunspell-an
+Architecture: all
+Depends: ${misc:Depends},
+         dictionaries-common
+Suggests: hunspell,
+          libreoffice-core | openoffice.org-hunspell | openoffice.org-core (>= 2.0.2),
+          iceweasel | icedove | iceape-browser
+Provides: hunspell-dictionary,
+          hunspell-dictionary-an,
+          openoffice.org-spellcheck-an,
+          myspell-an
+Description: Aragonese dictionary for hunspell
+ This is the Aragonese dictionary for use with the hunspell spellchecker.
+ .
+ The wordlist is built using free corpuses using Aragonese Wikipedia and
+ Aragonese Apertium dictionaries. They are based on the Aragonese grammar
+ as proposed by the Academia de l'Aragonés.
